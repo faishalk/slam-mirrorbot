@@ -89,7 +89,7 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [Mega SDK Page](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Your email id you used to sign up on mega.nz for using premium accounts (Leave th)
 - **MEGA_PASSWORD**: Your password for your mega.nz account 
-- **STOP_DUPLICATE_MIRROR**: (Optional field) (Leave empty if unsure) if this field is set to `True` , bot will check file in drive, if it is present in drive, downloading will ne stopped. (Note - File will be checked using filename, not using filehash, so this feature is not perfect yet)
+- **STOP_DUPLICATE_MIRROR**: (Optional field) (Leave empty if unsure) if this field is set to `True` , bot will check file in drive, if it is present in drive, downloading will ne stopped. (**Note**: File will be checked using filename, not using filehash, so this feature is not perfect yet)
 - **BLOCK_MEGA_FOLDER**: (Optional field) If you want to remove mega.nz folder support, set it to `True`.
 - **BLOCK_MEGA_LINKS**: (Optional field) If you want to remove mega.nz mirror support (bcoz it's too much buggy and unstable), set it to `True`.
 - **UPTOBOX_TOKEN**: Uptobox token to mirror uptobox links. Get it from [Uptobox Premium Account](https://uptobox.com/my_account).
@@ -209,10 +209,8 @@ Thanks to:
 - [Dank-del](https://github.com/Dank-del/) for base repo
 - [magneto261290](https://github.com/magneto261290/) for some features
 - [SVR666](https://github.com/SVR666/) for some fixes
-- [4amparaboy](https://github.com/4amparaboy/) for some help
 - [WinTenDev](https://github.com/WinTenDev/) for Uptobox support
-- [iamLiquidX](https://github.com/iamLiquidX/) for Speedtest module
 - [ydner](https://github.com/ydner/) for Usage module
-- [breakdowns](https://github.com/breakdowns) idk
+- [breakdowns](https://github.com/breakdowns/) idk
 
 and many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/breakdowns/slam-mirrorbot/graphs/contributors).
