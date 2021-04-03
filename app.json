@@ -139,5 +139,13 @@
         "description": "Fill your URL if you are using extra buttons.",
         "required": false
       }
+    },
+"addons": [
+  {
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
     }
+  }
+]
 }
